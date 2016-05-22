@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	int n;
-	cin>>n;
+	cin>>n;  //int m; cin>>m; can be used for an m x n  matrix.
 	vector< vector<int> > v(n,vector<int>(n));
 	for(int i=0;i<n;i++)
 	{
